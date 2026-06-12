@@ -5,4 +5,4 @@ Numerical simulation of propulsion systems and related flow physics.
 ## Projects
 | # | Project | Description | Status |
 |---|---------|-------------|--------|
-| — | *Coming soon* | — | Planned |
+| 1 | Ramjet Full Numeric Design| A thermodynamic state solver for full ramjet | Completed |

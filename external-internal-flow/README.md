@@ -5,4 +5,4 @@ Projects covering external aerodynamics and internal flow systems.
 ## Projects
 | # | Project | Description | Status |
 |---|---------|-------------|--------|
-| — | *Coming soon* | — | Planned |
+| 1 | airfoilLaminarFoam| Custom openFOAM Laminar Solver | Ongoing|
