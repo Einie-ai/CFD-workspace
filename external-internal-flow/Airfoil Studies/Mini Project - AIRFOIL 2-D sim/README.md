@@ -1,4 +1,4 @@
-# External & Internal Flow CFD
+# airfoilLaminarFoam - Custom 2-D laminar airfoil flow solver
 
 Mini-Project: Built a standalone, custom-compiled CFD solver from scratch within the OpenFOAM v13 framework for simulating 2D incompressible laminar flow over a NACA 0012 airfoil — without inheriting from any existing solver module.
 The solver implements the full four-step SIMPLE algorithm using raw fvc::/fvm:: operators: momentum predictor, HbyA extraction, pressure Poisson solve via GAMG + GaussSeidel, and explicit velocity correction. A bespoke createFields.H was authored to handle field initialisation, viscosity registration, and interfacing with the forceCoeffs functionObject for aerodynamic coefficient extraction (Cl, Cd, Cm).
